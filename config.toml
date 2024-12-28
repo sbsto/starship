@@ -1,0 +1,38 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+\\[$username\
+$hostname\
+$localip\
+$kubernetes\
+$directory\
+$git_branch\
+$git_commit\
+$helm\
+$aws\
+$memoryusage\
+$gcloud\
+$custom\
+$sudo\
+$jobs\
+$battery\
+$time\
+$status\
+$os\
+$container\
+$shell\\] \
+$character"""
+
+add_newline = false
+
+[git_branch]
+format = '[ $branch]($style)'
+style = "fg:111"
+
+[directory]
+format = "[$path]($style)[$read_only]($read_only_style)"
+style = "blue"
+
+[character]
+success_symbol = "[\\$](fg:157)"
+error_symbol = "[\\$](fg:217)"
