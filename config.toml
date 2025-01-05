@@ -2,23 +2,9 @@
 
 format = """
 \\[$username\
-$hostname\
-$localip\
-$kubernetes\
 $directory\
 $git_branch\
 $git_commit\
-$helm\
-$aws\
-$memoryusage\
-$gcloud\
-$custom\
-$sudo\
-$jobs\
-$time\
-$status\
-$os\
-$container\
 $shell\\] \
 $character"""
 
