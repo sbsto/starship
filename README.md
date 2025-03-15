@@ -1,3 +1,5 @@
+MOVED TO https://github.com/sbsto/dotfiles
+
 starship config
 
 also install [the binary](https://starship.rs/installing/)
